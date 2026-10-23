@@ -1,0 +1,25 @@
+# Cure Foundation India site
+# Apache front controller (Vercel uses vercel.json, php -S uses router.php).
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # Internal PHP modules are never served directly
+    RewriteRule ^/?includes/ - [F,L]
+    RewriteRule ^/?pages/    - [F,L]
+    RewriteRule ^/?_         - [F,L]
+
+    # Serve real files and folders as-is (assets, favicon, ...)
+    RewriteCond %{REQUEST_FILENAME} -f [OR]
+    RewriteCond %{REQUEST_FILENAME} -d
+    RewriteRule ^ - [L]
+
+    # Legacy mirror URLs (/index.html, /pages/<slug>.html) are handled by the
+    # front controller, which 301-redirects them to the clean URL.
+    RewriteRule ^(index\.html|pages/[^/]+\.html)$ api/index.php [L]
+
+    # Everything else goes through the front controller too
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^(.*)$ api/index.php [QSA,L]
+</IfModule>

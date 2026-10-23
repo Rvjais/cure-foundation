@@ -1,0 +1,16 @@
+# Composer/vendor, if added later
+vendor/
+
+# Python artifacts from the generator
+__pycache__/
+*.pyc
+
+# Local render-check output
+_rendercheck/
+
+# Scratch working files (leading underscore, excluded on purpose)
+_*.py
+_*.php
+_*.html
+_*.txt
+_*.json
