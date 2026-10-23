@@ -1,0 +1,7 @@
+.sermone-quickview-detail-container .sermone--media-nav-container {
+  margin: 0;
+}
+.sermone-quickview-detail-container .sermone--media-tab-container {
+  width: calc(100% - 40px);
+  padding: 20px !important;
+}

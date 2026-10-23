@@ -1,0 +1,761 @@
+.elementor-sermone--default .elementor-sermon {
+  position: relative;
+  overflow: hidden; }
+  .elementor-sermone--default .elementor-sermon:hover .elementor-sermon__overlay {
+    opacity: 1; }
+  .elementor-sermone--default .elementor-sermon:hover .elementor-sermon__quickview {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0); }
+  .elementor-sermone--default .elementor-sermon__thumbnail {
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 66%;
+    background: #e7e6e4;
+    margin-bottom: 20px; }
+    .elementor-sermone--default .elementor-sermon__thumbnail img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      -webkit-transition: all .3s;
+      transition: all .3s; }
+  .elementor-sermone--default .elementor-sermon__quickview {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    z-index: 3;
+    color: #FFFFFF;
+    background: #0073a8;
+    margin: -25px 0 0 -25px;
+    border-radius: 50px;
+    -webkit-transform: translateY(40px);
+    transform: translateY(40px);
+    -webkit-transition: all .3s;
+    transition: all .3s; }
+    .elementor-sermone--default .elementor-sermon__quickview svg {
+      fill: currentColor; }
+  .elementor-sermone--default .elementor-sermon__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    opacity: 0;
+    z-index: 1;
+    -webkit-transition: all .3s;
+    transition: all .3s; }
+  .elementor-sermone--default .elementor-sermon__title {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.25;
+    color: #333333;
+    margin-bottom: 16px; }
+    .elementor-sermone--default .elementor-sermon__title a {
+      color: inherit; }
+      .elementor-sermone--default .elementor-sermon__title a:hover {
+        color: #0073a8; }
+  .elementor-sermone--default .elementor-sermon__meta {
+    list-style: none;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #999999;
+    margin: 0 0 16px;
+    padding: 0; }
+    .elementor-sermone--default .elementor-sermon__meta li {
+      display: inline-block; }
+      .elementor-sermone--default .elementor-sermon__meta li:not(:last-child):after {
+        content: "-";
+        display: inline-block;
+        margin: 0 4px; }
+      .elementor-sermone--default .elementor-sermon__meta li a {
+        color: inherit; }
+        .elementor-sermone--default .elementor-sermon__meta li a:hover {
+          color: #0073a8; }
+  .elementor-sermone--default .elementor-sermon__excerpt {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.75;
+    color: #666666;
+    margin-bottom: 16px; }
+    .elementor-sermone--default .elementor-sermon__excerpt p {
+      margin: 0; }
+  .elementor-sermone--default .elementor-sermon__read-more {
+    display: inline-block;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 100%;
+    color: #0073a8;
+    text-decoration: none; }
+    .elementor-sermone--default .elementor-sermon__read-more:hover {
+      color: #005075; }
+.elementor-sermone--skin-grid-grouse .elementor-sermon {
+  position: relative;
+  text-align: center;
+  overflow: hidden; }
+  .elementor-sermone--skin-grid-grouse .elementor-sermon:hover .elementor-sermon__overlay {
+    opacity: 1; }
+  .elementor-sermone--skin-grid-grouse .elementor-sermon:hover .elementor-sermon__thumbnail img {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1); }
+  .elementor-sermone--skin-grid-grouse .elementor-sermon__thumbnail {
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 66%;
+    background: #e7e6e4;
+    margin-bottom: 20px;
+    border-radius: 5px; }
+    .elementor-sermone--skin-grid-grouse .elementor-sermon__thumbnail img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      -webkit-transition: all 1.5s cubic-bezier(0.11, 0.52, 0.53, 0.79) 0s;
+      transition: all 1.5s cubic-bezier(0.11, 0.52, 0.53, 0.79) 0s; }
+  .elementor-sermone--skin-grid-grouse .elementor-sermon__quickview {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    z-index: 3;
+    overflow: hidden;
+    border-radius: 5px;
+    -webkit-transition: all .3s;
+    transition: all .3s; }
+    .elementor-sermone--skin-grid-grouse .elementor-sermon__quickview span {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 42px;
+      height: 42px;
+      color: #FFFFFF;
+      background: #da9100; }
+      .elementor-sermone--skin-grid-grouse .elementor-sermon__quickview span:not(:last-child) {
+        border-right: 1px solid rgba(255, 255, 255, 0.3); }
+      .elementor-sermone--skin-grid-grouse .elementor-sermon__quickview span:hover {
+        background: #ca8601; }
+    .elementor-sermone--skin-grid-grouse .elementor-sermon__quickview svg {
+      fill: currentColor; }
+  .elementor-sermone--skin-grid-grouse .elementor-sermon__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    opacity: 0;
+    z-index: 1;
+    -webkit-transition: all .3s;
+    transition: all .3s; }
+  .elementor-sermone--skin-grid-grouse .elementor-sermon__title {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.25;
+    color: #282828;
+    margin-bottom: 16px; }
+    .elementor-sermone--skin-grid-grouse .elementor-sermon__title a {
+      color: inherit; }
+      .elementor-sermone--skin-grid-grouse .elementor-sermon__title a:hover {
+        color: #da9100; }
+  .elementor-sermone--skin-grid-grouse .elementor-sermon__meta {
+    list-style: none;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #444444;
+    margin: 0;
+    padding: 0; }
+    .elementor-sermone--skin-grid-grouse .elementor-sermon__meta li {
+      display: inline-block; }
+      .elementor-sermone--skin-grid-grouse .elementor-sermon__meta li:not(:last-child) {
+        margin-right: 24px; }
+      .elementor-sermone--skin-grid-grouse .elementor-sermon__meta li svg {
+        display: inline-block;
+        vertical-align: middle;
+        fill: #da9100;
+        margin: -3px 4px 0 1px; }
+      .elementor-sermone--skin-grid-grouse .elementor-sermon__meta li a {
+        color: #da9100; }
+.elementor-sermone--skin-grid-michelson .elementor-sermon {
+  position: relative;
+  background: #f5f5f5;
+  overflow: hidden; }
+  .elementor-sermone--skin-grid-michelson .elementor-sermon:hover .elementor-sermon__overlay {
+    opacity: 1; }
+  .elementor-sermone--skin-grid-michelson .elementor-sermon:hover .elementor-sermon__thumbnail img {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1); }
+  .elementor-sermone--skin-grid-michelson .elementor-sermon__thumbnail {
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 66%;
+    background: #e7e6e4; }
+    .elementor-sermone--skin-grid-michelson .elementor-sermon__thumbnail img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      -webkit-transition: all 1.5s cubic-bezier(0.11, 0.52, 0.53, 0.79) 0s;
+      transition: all 1.5s cubic-bezier(0.11, 0.52, 0.53, 0.79) 0s; }
+  .elementor-sermone--skin-grid-michelson .elementor-sermon__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    opacity: 0;
+    z-index: 1;
+    -webkit-transition: all .3s;
+    transition: all .3s; }
+  .elementor-sermone--skin-grid-michelson .elementor-sermon__content {
+    padding: 30px; }
+  .elementor-sermone--skin-grid-michelson .elementor-sermon__quickview {
+    display: inline-block;
+    margin-bottom: 16px;
+    -webkit-transition: all .3s;
+    transition: all .3s; }
+    .elementor-sermone--skin-grid-michelson .elementor-sermon__quickview span {
+      display: inline-block;
+      color: #333333; }
+      .elementor-sermone--skin-grid-michelson .elementor-sermon__quickview span:not(:last-child) {
+        margin-right: 15px; }
+      .elementor-sermone--skin-grid-michelson .elementor-sermon__quickview span:hover {
+        color: #63b6d1; }
+    .elementor-sermone--skin-grid-michelson .elementor-sermon__quickview svg {
+      fill: currentColor; }
+  .elementor-sermone--skin-grid-michelson .elementor-sermon__title {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.25;
+    text-transform: uppercase;
+    color: #333333;
+    margin-bottom: 16px; }
+    .elementor-sermone--skin-grid-michelson .elementor-sermon__title a {
+      color: inherit; }
+      .elementor-sermone--skin-grid-michelson .elementor-sermon__title a:hover {
+        color: #63b6d1; }
+  .elementor-sermone--skin-grid-michelson .elementor-sermon__meta {
+    list-style: none;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #666666;
+    margin: 0;
+    padding: 0; }
+    .elementor-sermone--skin-grid-michelson .elementor-sermon__meta li {
+      display: inline-block; }
+      .elementor-sermone--skin-grid-michelson .elementor-sermon__meta li:not(:last-child) {
+        margin-right: 24px; }
+      .elementor-sermone--skin-grid-michelson .elementor-sermon__meta li a {
+        color: #63b6d1; }
+  .elementor-sermone--skin-grid-michelson .elementor-sermon:hover .elementor-sermon__overlay {
+    opacity: 1; }
+  @media (max-width: 575.98px) {
+    .elementor-sermone--skin-grid-michelson .elementor-sermon__content {
+      padding: 24px 16px; } }
+.elementor-sermone--skin-grid-gangri .elementor-sermon {
+  position: relative;
+  overflow: hidden;
+  -webkit-transition: all .3s;
+  transition: all .3s; }
+  .elementor-sermone--skin-grid-gangri .elementor-sermon:hover .elementor-sermon__thumbnail img {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1); }
+  .elementor-sermone--skin-grid-gangri .elementor-sermon__thumbnail {
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 66%;
+    background: #e7e6e4; }
+    .elementor-sermone--skin-grid-gangri .elementor-sermon__thumbnail img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      -webkit-transition: all 1.5s cubic-bezier(0.11, 0.52, 0.53, 0.79) 0s;
+      transition: all 1.5s cubic-bezier(0.11, 0.52, 0.53, 0.79) 0s; }
+  .elementor-sermone--skin-grid-gangri .elementor-sermon__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    opacity: 0;
+    z-index: 1;
+    -webkit-transition: all .3s;
+    transition: all .3s; }
+  .elementor-sermone--skin-grid-gangri .elementor-sermon__content {
+    position: relative;
+    background: #f5f5f5;
+    padding: 25px 30px 50px;
+    margin-bottom: 25px; }
+  .elementor-sermone--skin-grid-gangri .elementor-sermon__title {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.25;
+    text-transform: uppercase;
+    color: #333333;
+    margin-bottom: 12px; }
+    .elementor-sermone--skin-grid-gangri .elementor-sermon__title a {
+      color: inherit; }
+      .elementor-sermone--skin-grid-gangri .elementor-sermon__title a:hover {
+        color: #d45f44; }
+  .elementor-sermone--skin-grid-gangri .elementor-sermon__speaker {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #6e6e6e;
+    margin-bottom: 12px; }
+    .elementor-sermone--skin-grid-gangri .elementor-sermon__speaker a {
+      color: #d45f44; }
+  .elementor-sermone--skin-grid-gangri .elementor-sermon__date {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #d45f44; }
+  .elementor-sermone--skin-grid-gangri .elementor-sermon__quickview {
+    position: absolute;
+    bottom: -25px;
+    left: 30px;
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    color: #FFFFFF;
+    background: #d45f44;
+    padding: 0 30px;
+    border-radius: 30px;
+    -webkit-transition: all .3s;
+    transition: all .3s; }
+    .elementor-sermone--skin-grid-gangri .elementor-sermon__quickview span {
+      display: inline-block; }
+      .elementor-sermone--skin-grid-gangri .elementor-sermon__quickview span:not(:last-child) {
+        margin-right: 20px; }
+    .elementor-sermone--skin-grid-gangri .elementor-sermon__quickview svg {
+      fill: currentColor; }
+  .elementor-sermone--skin-grid-gangri .elementor-sermon:hover .elementor-sermon__overlay {
+    opacity: 1; }
+  @media (max-width: 575.98px) {
+    .elementor-sermone--skin-grid-gangri .elementor-sermon__content {
+      padding: 25px 15px 50px; }
+    .elementor-sermone--skin-grid-gangri .elementor-sermon__quickview {
+      left: 15px; } }
+.elementor-sermone--skin-grid-sankar .elementor-sermon {
+  position: relative;
+  text-align: center;
+  overflow: hidden; }
+  .elementor-sermone--skin-grid-sankar .elementor-sermon:hover .elementor-sermon__overlay {
+    opacity: 1; }
+  .elementor-sermone--skin-grid-sankar .elementor-sermon:hover .elementor-sermon__thumbnail img {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1); }
+  .elementor-sermone--skin-grid-sankar .elementor-sermon.has-thumbnail .elementor-sermon__content {
+    margin-top: 0; }
+  .elementor-sermone--skin-grid-sankar .elementor-sermon__thumbnail {
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 66%;
+    background: #e7e6e4;
+    border-radius: 5px; }
+    .elementor-sermone--skin-grid-sankar .elementor-sermon__thumbnail img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      -webkit-transition: all 1.5s cubic-bezier(0.11, 0.52, 0.53, 0.79) 0s;
+      transition: all 1.5s cubic-bezier(0.11, 0.52, 0.53, 0.79) 0s; }
+  .elementor-sermone--skin-grid-sankar .elementor-sermon__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    opacity: 0;
+    z-index: 1;
+    -webkit-transition: all .3s;
+    transition: all .3s; }
+  .elementor-sermone--skin-grid-sankar .elementor-sermon__content {
+    position: relative;
+    margin-top: 20px;
+    padding-top: 40px; }
+  .elementor-sermone--skin-grid-sankar .elementor-sermon__title {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1.25;
+    color: #333333;
+    margin-bottom: 12px; }
+    .elementor-sermone--skin-grid-sankar .elementor-sermon__title a {
+      color: inherit; }
+      .elementor-sermone--skin-grid-sankar .elementor-sermon__title a:hover {
+        color: #347d7a; }
+  .elementor-sermone--skin-grid-sankar .elementor-sermon__meta {
+    list-style: none;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #555555;
+    margin: 0;
+    padding: 0; }
+    .elementor-sermone--skin-grid-sankar .elementor-sermon__meta li {
+      display: inline-block; }
+      .elementor-sermone--skin-grid-sankar .elementor-sermon__meta li:not(:last-child):after {
+        content: "-";
+        display: inline-block;
+        vertical-align: middle;
+        margin: 0 4px; }
+      .elementor-sermone--skin-grid-sankar .elementor-sermon__meta li a {
+        color: #347d7a; }
+  .elementor-sermone--skin-grid-sankar .elementor-sermon__quickview {
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    z-index: 3;
+    overflow: hidden;
+    background: #FFFFFF;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.1);
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    -webkit-transition: all .3s;
+    transition: all .3s; }
+    .elementor-sermone--skin-grid-sankar .elementor-sermon__quickview span {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 42px;
+      height: 42px;
+      color: #555555;
+      background: #FFFFFF; }
+      .elementor-sermone--skin-grid-sankar .elementor-sermon__quickview span:not(:last-child) {
+        border-right: 1px solid #f1f1f1; }
+      .elementor-sermone--skin-grid-sankar .elementor-sermon__quickview span:hover {
+        color: #FFFFFF;
+        background: #347d7a; }
+    .elementor-sermone--skin-grid-sankar .elementor-sermon__quickview svg {
+      fill: currentColor; }
+.elementor-sermone--skin-list-manaslu .elementor-sermon {
+  position: relative;
+  overflow: hidden; }
+  .elementor-sermone--skin-list-manaslu .elementor-sermon.has-thumbnail {
+    padding: 50px 0 0 100px; }
+    .elementor-sermone--skin-list-manaslu .elementor-sermon.has-thumbnail .elementor-sermon__content {
+      width: 60%; }
+  .elementor-sermone--skin-list-manaslu .elementor-sermon__inner {
+    display: flex;
+    background: #f5f5f5;
+    border-radius: 15px; }
+  .elementor-sermone--skin-list-manaslu .elementor-sermon__thumbnail {
+    position: relative;
+    overflow: hidden;
+    width: calc(40% + 100px);
+    margin: -50px 0 50px -100px;
+    background: #e7e6e4;
+    border-radius: 15px; }
+    .elementor-sermone--skin-list-manaslu .elementor-sermon__thumbnail img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover; }
+  .elementor-sermone--skin-list-manaslu .elementor-sermon__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    opacity: 0;
+    z-index: 1;
+    -webkit-transition: all .3s;
+    transition: all .3s; }
+  .elementor-sermone--skin-list-manaslu .elementor-sermon__read-more {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    color: #FFFFFF;
+    background: #3780FF;
+    margin: -40px 0 0 -40px;
+    border-radius: 50px;
+    opacity: 0;
+    z-index: 1;
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+    -webkit-transition: all .3s;
+    transition: all .3s; }
+    .elementor-sermone--skin-list-manaslu .elementor-sermon__read-more:hover {
+      color: #3780FF;
+      background: #FFFFFF; }
+    .elementor-sermone--skin-list-manaslu .elementor-sermon__read-more svg {
+      fill: currentColor; }
+  .elementor-sermone--skin-list-manaslu .elementor-sermon__content {
+    padding: 50px; }
+  .elementor-sermone--skin-list-manaslu .elementor-sermon__preacher {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.5;
+    color: #3780FF;
+    margin-bottom: 8px; }
+    .elementor-sermone--skin-list-manaslu .elementor-sermon__preacher a {
+      color: inherit; }
+  .elementor-sermone--skin-list-manaslu .elementor-sermon__title {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1.25;
+    color: #101318;
+    margin-bottom: 16px; }
+    .elementor-sermone--skin-list-manaslu .elementor-sermon__title a {
+      color: inherit; }
+      .elementor-sermone--skin-list-manaslu .elementor-sermon__title a:hover {
+        color: #3780FF; }
+  .elementor-sermone--skin-list-manaslu .elementor-sermon__meta {
+    list-style: none;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #7F8285;
+    margin: 0 0 16px;
+    padding: 0 0 0 16px;
+    border-left: 4px solid #7F8285; }
+    .elementor-sermone--skin-list-manaslu .elementor-sermon__meta li {
+      display: block; }
+      .elementor-sermone--skin-list-manaslu .elementor-sermon__meta li:not(:last-child) {
+        margin-bottom: 4px; }
+      .elementor-sermone--skin-list-manaslu .elementor-sermon__meta li a {
+        font-weight: 600;
+        color: #3780FF; }
+  .elementor-sermone--skin-list-manaslu .elementor-sermon__excerpt {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.75;
+    color: #101318;
+    margin-bottom: 20px; }
+    .elementor-sermone--skin-list-manaslu .elementor-sermon__excerpt p {
+      margin: 0; }
+  .elementor-sermone--skin-list-manaslu .elementor-sermon__quickview {
+    display: inline-block;
+    -webkit-transition: all .3s;
+    transition: all .3s; }
+    .elementor-sermone--skin-list-manaslu .elementor-sermon__quickview span {
+      display: inline-block;
+      color: #101318; }
+      .elementor-sermone--skin-list-manaslu .elementor-sermon__quickview span:not(:last-child) {
+        margin-right: 15px; }
+      .elementor-sermone--skin-list-manaslu .elementor-sermon__quickview span:hover {
+        color: #3780FF; }
+    .elementor-sermone--skin-list-manaslu .elementor-sermon__quickview svg {
+      fill: currentColor; }
+  .elementor-sermone--skin-list-manaslu .elementor-sermon:hover .elementor-sermon__overlay {
+    opacity: 1; }
+  .elementor-sermone--skin-list-manaslu .elementor-sermon:hover .elementor-sermon__read-more {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1); }
+  @media (max-width: 767.98px) {
+    .elementor-sermone--skin-list-manaslu .elementor-sermon.has-thumbnail {
+      padding: 0; }
+      .elementor-sermone--skin-list-manaslu .elementor-sermon.has-thumbnail .elementor-sermon__content {
+        width: 100%; }
+    .elementor-sermone--skin-list-manaslu .elementor-sermon__inner {
+      flex-direction: column; }
+    .elementor-sermone--skin-list-manaslu .elementor-sermon__thumbnail {
+      width: 100%;
+      padding-bottom: 66%;
+      margin: 0;
+      border-bottom-left-radius: 0;
+      border-bottom-right-radius: 0; }
+    .elementor-sermone--skin-list-manaslu .elementor-sermon__content {
+      padding: 25px 30px; } }
+  @media (max-width: 575.98px) {
+    .elementor-sermone--skin-list-manaslu .elementor-sermon__content {
+      padding: 24px 16px; } }
+.elementor-sermone--skin-cobble-cerredo.elementor-grid {
+  display: block;
+  margin: 0 -15px; }
+  .elementor-sermone--skin-cobble-cerredo.elementor-grid:after {
+    content: "";
+    display: block;
+    clear: both; }
+.elementor-sermone--skin-cobble-cerredo .elementor-sermon-wrap {
+  width: 50%;
+  float: left;
+  margin-bottom: 30px;
+  padding-left: 15px;
+  padding-right: 15px; }
+  @media (max-width: 991.98px) {
+    .elementor-sermone--skin-cobble-cerredo .elementor-sermon-wrap {
+      width: 100%; } }
+  .elementor-sermone--skin-cobble-cerredo .elementor-sermon-wrap .elementor-sermon {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #e5e5e5; }
+  .elementor-sermone--skin-cobble-cerredo .elementor-sermon-wrap:first-child .elementor-sermon, .elementor-sermone--skin-cobble-cerredo .elementor-sermon-wrap:last-child .elementor-sermon {
+    border: none; }
+.elementor-sermone--skin-cobble-cerredo .elementor-sermon {
+  position: relative;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  -webkit-transition: all .3s;
+  transition: all .3s; }
+  .elementor-sermone--skin-cobble-cerredo .elementor-sermon:hover .elementor-sermon__thumbnail img {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1); }
+  .elementor-sermone--skin-cobble-cerredo .elementor-sermon__thumbnail {
+    position: relative;
+    overflow: hidden;
+    line-height: 0;
+    width: 150px;
+    height: 150px;
+    background: #e7e6e4; }
+    .elementor-sermone--skin-cobble-cerredo .elementor-sermon__thumbnail img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      -webkit-transition: all 1.5s cubic-bezier(0.11, 0.52, 0.53, 0.79) 0s;
+      transition: all 1.5s cubic-bezier(0.11, 0.52, 0.53, 0.79) 0s; }
+  .elementor-sermone--skin-cobble-cerredo .elementor-sermon__content {
+    width: calc(100% - 150px);
+    padding-left: 30px; }
+  .elementor-sermone--skin-cobble-cerredo .elementor-sermon__meta {
+    list-style: none;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #333333;
+    margin: 0 0 8px;
+    padding: 0; }
+    .elementor-sermone--skin-cobble-cerredo .elementor-sermon__meta a {
+      color: #d04a48; }
+    .elementor-sermone--skin-cobble-cerredo .elementor-sermon__meta li {
+      display: inline-block; }
+      .elementor-sermone--skin-cobble-cerredo .elementor-sermon__meta li:not(:last-child):after {
+        content: "-";
+        display: inline-block;
+        vertical-align: middle;
+        margin: 0 4px; }
+  .elementor-sermone--skin-cobble-cerredo .elementor-sermon__title {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1;
+    color: #1a1a1a;
+    margin-bottom: 12px; }
+    .elementor-sermone--skin-cobble-cerredo .elementor-sermon__title a {
+      color: inherit; }
+      .elementor-sermone--skin-cobble-cerredo .elementor-sermon__title a:hover {
+        color: #d04a48; }
+  .elementor-sermone--skin-cobble-cerredo .elementor-sermon__quickview {
+    display: inline-block;
+    -webkit-transition: all .3s;
+    transition: all .3s; }
+    .elementor-sermone--skin-cobble-cerredo .elementor-sermon__quickview span {
+      display: inline-block;
+      color: #d04a48; }
+      .elementor-sermone--skin-cobble-cerredo .elementor-sermon__quickview span:not(:last-child) {
+        margin-right: 15px; }
+    .elementor-sermone--skin-cobble-cerredo .elementor-sermon__quickview svg {
+      fill: currentColor; }
+  @media (max-width: 575.98px) {
+    .elementor-sermone--skin-cobble-cerredo .elementor-sermon {
+      flex-direction: column; }
+      .elementor-sermone--skin-cobble-cerredo .elementor-sermon__thumbnail {
+        width: 100%;
+        height: auto;
+        padding-bottom: 66%;
+        margin-bottom: 30px; }
+      .elementor-sermone--skin-cobble-cerredo .elementor-sermon__content {
+        width: 100%;
+        padding-left: 0; } }
+.elementor-sermone--skin-cobble-cerredo .elementor-sermon-feature:hover .elementor-sermon-feature__thumbnail img {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1); }
+.elementor-sermone--skin-cobble-cerredo .elementor-sermon-feature__thumbnail {
+  position: relative;
+  overflow: hidden;
+  line-height: 0;
+  background: #e7e6e4;
+  margin-bottom: 30px;
+  padding-bottom: 66%; }
+  .elementor-sermone--skin-cobble-cerredo .elementor-sermon-feature__thumbnail img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    -webkit-transition: all 1.5s cubic-bezier(0.11, 0.52, 0.53, 0.79) 0s;
+    transition: all 1.5s cubic-bezier(0.11, 0.52, 0.53, 0.79) 0s; }
+.elementor-sermone--skin-cobble-cerredo .elementor-sermon-feature__meta {
+  list-style: none;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #333333;
+  margin: 0 0 12px;
+  padding: 0; }
+  .elementor-sermone--skin-cobble-cerredo .elementor-sermon-feature__meta a {
+    color: #d04a48; }
+  .elementor-sermone--skin-cobble-cerredo .elementor-sermon-feature__meta li {
+    display: inline-block; }
+    .elementor-sermone--skin-cobble-cerredo .elementor-sermon-feature__meta li:not(:last-child):after {
+      content: "-";
+      display: inline-block;
+      vertical-align: middle;
+      margin: 0 4px; }
+.elementor-sermone--skin-cobble-cerredo .elementor-sermon-feature__title {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1;
+  color: #1a1a1a;
+  margin-bottom: 12px; }
+  .elementor-sermone--skin-cobble-cerredo .elementor-sermon-feature__title a {
+    color: inherit; }
+    .elementor-sermone--skin-cobble-cerredo .elementor-sermon-feature__title a:hover {
+      color: #d04a48; }
+.elementor-sermone--skin-cobble-cerredo .elementor-sermon-feature__excerpt {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.75;
+  color: #808080;
+  margin-bottom: 24px; }
+  .elementor-sermone--skin-cobble-cerredo .elementor-sermon-feature__excerpt p {
+    margin: 0; }
+.elementor-sermone--skin-cobble-cerredo .elementor-sermon-feature__quickview {
+  display: inline-block;
+  -webkit-transition: all .3s;
+  transition: all .3s; }
+  .elementor-sermone--skin-cobble-cerredo .elementor-sermon-feature__quickview span {
+    display: inline-block;
+    color: #d04a48; }
+    .elementor-sermone--skin-cobble-cerredo .elementor-sermon-feature__quickview span:not(:last-child) {
+      margin-right: 15px; }
+  .elementor-sermone--skin-cobble-cerredo .elementor-sermon-feature__quickview svg {
+    fill: currentColor; }
+
+/*# sourceMappingURL=sermone.css.map */
