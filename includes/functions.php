@@ -30,6 +30,11 @@ function cure_norm_path(string $href): string
     if ($q !== false) {
         return 'x'; // stub exporter links never match plain page paths
     }
+    // Flat-file pages sit in the web root: /about-us.php -> /about-us and
+    // nested routes are flattened with "__" (a__b.php -> /a/b).
+    if (preg_match('~^(.+)\.php$~', $h, $pm)) {
+        return '/' . str_replace('__', '/', trim($pm[1], '/'));
+    }
     if (preg_match('~\.[A-Za-z0-9]{1,6}$~', $h)) {
         return 'x'; // asset / file link
     }
@@ -301,43 +306,6 @@ function cure_apply_menu_overrides(string $html, array $map): string
 }
 
 /**
- * Front controller: route and serve the current request.
- */
-function cure_dispatch(): void
-{
-    global $CURE_ROUTES;
-
-    $parts = explode('?', $_SERVER['REQUEST_URI'] ?? '/', 2);
-    $path  = rawurldecode($parts[0]);
-    $qs    = $parts[1] ?? '';
-
-    // Legacy URLs from the static mirror keep working (redirected to clean URLs)
-    if (preg_match('~^/index\.html$~i', $path)) {
-        header('Location: /', true, 301);
-        exit;
-    }
-    if (preg_match('~^/pages/([^/?]+)\.html$~i', $path, $pm)) {
-        header('Location: /' . str_replace('__', '/', $pm[1]) . '/', true, 301);
-        exit;
-    }
-    if ($qs === '' && !preg_match('~\.[A-Za-z0-9]{1,6}$~', $path)
-        && $path !== '/' && substr($path, -1) !== '/') {
-        header('Location: /' . trim($path, '/') . '/', true, 301);
-        exit;
-    }
-
-    $key = $path . ($qs !== '' ? '?' . $qs : '');
-    if (isset($CURE_ROUTES[$key])) {
-        require CURE_ROOT . '/' . $CURE_ROUTES[$key];
-        exit;
-    }
-
-    http_response_code(404);
-    require CURE_ROOT . '/404.php';
-    exit;
-}
-
-/**
  * Shared <head>: static inventory + per-page dynamic slots + gap extras.
  */
 function cure_render_head(array $page): void
@@ -393,6 +361,12 @@ function cure_render_tail(array $page): void
  */
 function cure_render_page(array $page): void
 {
+    // Calendar export stubs (iCal / Outlook): /events.php?ical=1 etc.
+    if (isset($_GET['ical']) || isset($_GET['outlook-ical'])) {
+        cure_204();
+        return;
+    }
+
     cure_render_head($page);
     echo '<body class="' . e($page['body_class'] ?? '') . '">' . "\n";
     // wrapper around the whole page content, present on every source page

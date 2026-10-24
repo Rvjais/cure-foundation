@@ -13,7 +13,7 @@ cure_render_page(array(
     'body_class' => 'home page-template page-template-elementor_header_footer page page-id-6267 wp-custom-logo wp-embed-responsive tribe-no-js singular elementor-default elementor-template-full-width elementor-kit-9 elementor-page elementor-page-6267',
     'head_dyn'   => array(
     3 => '<title>Cure Foundation India –  non-profit organization dedicated to helping people manage cancer</title>',
-    7 => '<link href="/events/" rel="alternate" title="Cure Foundation India » iCal Feed" type="text/calendar"/>',
+    7 => '<link href="/events.php" rel="alternate" title="Cure Foundation India » iCal Feed" type="text/calendar"/>',
     8 => '<script>
 window._wpemojiSettings = {"baseUrl":"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/14.0.0\\/72x72\\/","ext":".png","svgUrl":"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/14.0.0\\/svg\\/","svgExt":".svg","source":{"concatemoji":"/assets/wp-includes/js/wp-emoji-release.min.js?ver=6.3.13"}};
 /*! This file is auto-generated */
@@ -670,12 +670,12 @@ The doctor has handled more than 20,000 cases, providing his patients with custo
 <div class="elementor-post__thumbnail">
 <img alt="" class="attachment-medium size-medium wp-post-image" decoding="async" height="200" sizes="(max-width: 300px) 100vw, 300px" src="/assets/wp-content/uploads/2026/08/ibscon-1.webp" srcset="/assets/wp-content/uploads/2026/08/ibscon-1.webp 300w, /assets/wp-content/uploads/2026/08/ibscon-1.webp 1024w, /assets/wp-content/uploads/2026/08/ibscon-1.webp 768w, /assets/wp-content/uploads/2026/08/ibscon-1.webp 1536w, /assets/wp-content/uploads/2026/08/ibscon-1.webp 1568w, /assets/wp-content/uploads/2026/08/ibscon-1.webp 1600w" width="300"/> </div>
 <div class="elementor-post__content">
-<h3 class="elementor-post__title"><a href="/ibscon-2026-16th-annual-conference-of-the-indian-brachytherapy-society-cmc-vellore/">IBSCON 2026 – 16th Annual Conference of the Indian Brachytherapy Society, CMC Vellore</a></h3>
+<h3 class="elementor-post__title"><a href="/ibscon-2026-16th-annual-conference-of-the-indian-brachytherapy-society-cmc-vellore.php">IBSCON 2026 – 16th Annual Conference of the Indian Brachytherapy Society, CMC Vellore</a></h3>
 <ul class="elementor-post__meta">
 <li>
 <time class="entry-date published" datetime="2026-08-26T10:24:56+00:00">August 26, 2026</time> </li>
 <li>
-<a class="elementor-post__comment-count" href="pages/ibscon-2026-16th-annual-conference-of-the-indian-brachytherapy-society-cmc-vellore.html#respond">
+<a class="elementor-post__comment-count" href="ibscon-2026-16th-annual-conference-of-the-indian-brachytherapy-society-cmc-vellore.php#respond">
 
   	              0 Comment  	            </a>
 </li>
@@ -686,12 +686,12 @@ The doctor has handled more than 20,000 cases, providing his patients with custo
 <div class="elementor-post__thumbnail">
 <img alt="" class="attachment-medium size-medium wp-post-image" decoding="async" height="169" loading="lazy" sizes="(max-width: 300px) 100vw, 300px" src="/assets/wp-content/uploads/2025/11/WhatsApp-Image-2025-11-01-at-2.20.34-PM-2.jpeg" srcset="/assets/wp-content/uploads/2025/11/WhatsApp-Image-2025-11-01-at-2.20.34-PM-2.jpeg 300w, /assets/wp-content/uploads/2025/11/WhatsApp-Image-2025-11-01-at-2.20.34-PM-2.jpeg 1024w, /assets/wp-content/uploads/2025/11/WhatsApp-Image-2025-11-01-at-2.20.34-PM-2.jpeg 768w, /assets/wp-content/uploads/2025/11/WhatsApp-Image-2025-11-01-at-2.20.34-PM-2.jpeg 1536w, /assets/wp-content/uploads/2025/11/WhatsApp-Image-2025-11-01-at-2.20.34-PM-2.jpeg 1568w, /assets/wp-content/uploads/2025/11/WhatsApp-Image-2025-11-01-at-2.20.34-PM-2.jpeg 1600w" width="300"/> </div>
 <div class="elementor-post__content">
-<h3 class="elementor-post__title"><a href="/breast-cancer-awareness/">Breast Cancer Awareness</a></h3>
+<h3 class="elementor-post__title"><a href="/breast-cancer-awareness.php">Breast Cancer Awareness</a></h3>
 <ul class="elementor-post__meta">
 <li>
 <time class="entry-date published" datetime="2025-11-03T09:54:04+00:00">November 3, 2025</time> </li>
 <li>
-<a class="elementor-post__comment-count" href="pages/breast-cancer-awareness.html#respond">
+<a class="elementor-post__comment-count" href="breast-cancer-awareness.php#respond">
 
   	              0 Comment  	            </a>
 </li>
@@ -702,12 +702,12 @@ The doctor has handled more than 20,000 cases, providing his patients with custo
 <div class="elementor-post__thumbnail">
 <img alt="" class="attachment-medium size-medium wp-post-image" decoding="async" height="169" loading="lazy" sizes="(max-width: 300px) 100vw, 300px" src="/assets/wp-content/uploads/2025/11/67b441d6-1d2a-4167-8e9f-1270760c832f.webp" srcset="/assets/wp-content/uploads/2025/11/67b441d6-1d2a-4167-8e9f-1270760c832f.webp 300w, /assets/wp-content/uploads/2025/11/67b441d6-1d2a-4167-8e9f-1270760c832f.webp 1024w, /assets/wp-content/uploads/2025/11/67b441d6-1d2a-4167-8e9f-1270760c832f.webp 768w, /assets/wp-content/uploads/2025/11/67b441d6-1d2a-4167-8e9f-1270760c832f.webp 1280w" width="300"/> </div>
 <div class="elementor-post__content">
-<h3 class="elementor-post__title"><a href="/national-cancer-awareness-day-check-o-late-initiative/">National Cancer Awareness Day – “Check O Late!” Initiative</a></h3>
+<h3 class="elementor-post__title"><a href="/national-cancer-awareness-day-check-o-late-initiative.php">National Cancer Awareness Day – “Check O Late!” Initiative</a></h3>
 <ul class="elementor-post__meta">
 <li>
 <time class="entry-date published" datetime="2025-10-31T07:37:19+00:00">October 31, 2025</time> </li>
 <li>
-<a class="elementor-post__comment-count" href="pages/national-cancer-awareness-day-check-o-late-initiative.html#respond">
+<a class="elementor-post__comment-count" href="national-cancer-awareness-day-check-o-late-initiative.php#respond">
 
   	              0 Comment  	            </a>
 </li>
@@ -718,10 +718,10 @@ The doctor has handled more than 20,000 cases, providing his patients with custo
 <nav class="elementor-pagination" role="navigation">
 <div class="nav-links">
 <span aria-current="page" class="page-numbers current">1</span>
-<a class="page-numbers" href="/page/2/">2</a>
-<a class="page-numbers" href="/page/3/">3</a>
+<a class="page-numbers" href="/page__2.php">2</a>
+<a class="page-numbers" href="/page__3.php">3</a>
 <span class="page-numbers dots">…</span>
-<a class="page-numbers" href="/page/16/">16</a> </div>
+<a class="page-numbers" href="/page__16.php">16</a> </div>
 </nav>
 </div>
 </div>
@@ -761,7 +761,7 @@ The doctor has handled more than 20,000 cases, providing his patients with custo
 <div class="elementor-element elementor-element-e1098a5 elementor-align-center elementor-widget elementor-widget-button" data-element_type="widget" data-id="e1098a5" data-widget_type="button.default">
 <div class="elementor-widget-container">
 <div class="elementor-button-wrapper">
-<a class="elementor-button elementor-button-link elementor-size-sm" href="/payment/">
+<a class="elementor-button elementor-button-link elementor-size-sm" href="/payment.php">
 <span class="elementor-button-content-wrapper">
 <span class="elementor-button-text">PAY NOW</span>
 </span>
@@ -781,7 +781,7 @@ The doctor has handled more than 20,000 cases, providing his patients with custo
 <div class="elementor-element elementor-element-a45032d elementor-align-center elementor-widget elementor-widget-button" data-element_type="widget" data-id="a45032d" data-widget_type="button.default">
 <div class="elementor-widget-container">
 <div class="elementor-button-wrapper">
-<a class="elementor-button elementor-button-link elementor-size-sm" href="/payment/">
+<a class="elementor-button elementor-button-link elementor-size-sm" href="/payment.php">
 <span class="elementor-button-content-wrapper">
 <span class="elementor-button-text">PAY NOW</span>
 </span>
@@ -801,7 +801,7 @@ The doctor has handled more than 20,000 cases, providing his patients with custo
 <div class="elementor-element elementor-element-01353e7 elementor-align-center elementor-widget elementor-widget-button" data-element_type="widget" data-id="01353e7" data-widget_type="button.default">
 <div class="elementor-widget-container">
 <div class="elementor-button-wrapper">
-<a class="elementor-button elementor-button-link elementor-size-sm" href="/payment/">
+<a class="elementor-button elementor-button-link elementor-size-sm" href="/payment.php">
 <span class="elementor-button-content-wrapper">
 <span class="elementor-button-text">PAY NOW</span>
 </span>
@@ -820,7 +820,7 @@ The doctor has handled more than 20,000 cases, providing his patients with custo
 <div class="elementor-element elementor-element-2be54c5 elementor-align-center elementor-widget elementor-widget-button" data-element_type="widget" data-id="2be54c5" data-widget_type="button.default">
 <div class="elementor-widget-container">
 <div class="elementor-button-wrapper">
-<a class="elementor-button elementor-button-link elementor-size-sm" href="/payment/">
+<a class="elementor-button elementor-button-link elementor-size-sm" href="/payment.php">
 <span class="elementor-button-content-wrapper">
 <span class="elementor-button-text">PAY NOW</span>
 </span>
