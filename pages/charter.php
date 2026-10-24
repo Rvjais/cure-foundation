@@ -432,11 +432,11 @@ var SGPB_JS_PARAMS = {"ajaxUrl":"https:\\/\\/curefoundationindia.com\\/wp-admin\
 <div class="elementor-widget-wrap elementor-element-populated">
 <div class="elementor-element elementor-element-3e8e8e7 elementor-widget__width-auto elementor-absolute elementor-invisible elementor-widget elementor-widget-image" data-element_type="widget" data-id="3e8e8e7" data-settings='{"_position":"absolute","_animation":"fadeInLeft"}' data-widget_type="image.default">
 <div class="elementor-widget-container">
-<img alt="" class="attachment-full size-full wp-image-4806" decoding="async" height="329" sizes="(max-width: 246px) 100vw, 246px" src="https://curefoundationindia.com/wp-content/uploads/2021/01/btr-intro-stock.png" srcset="https://curefoundationindia.com/wp-content/uploads/2021/01/btr-intro-stock.png 246w, https://curefoundationindia.com/wp-content/uploads/2021/01/btr-intro-stock-224x300.png 224w" width="246"/> </div>
+<img alt="" class="attachment-full size-full wp-image-4806" decoding="async" height="329" sizes="(max-width: 246px) 100vw, 246px" src="/assets/wp-content/uploads/2021/01/btr-intro-stock.png" srcset="/assets/wp-content/uploads/2021/01/btr-intro-stock.png 246w, /assets/wp-content/uploads/2021/01/btr-intro-stock-224x300.png 224w" width="246"/> </div>
 </div>
 <div class="elementor-element elementor-element-5082a01 elementor-invisible elementor-widget elementor-widget-image" data-element_type="widget" data-id="5082a01" data-settings='{"_animation":"fadeIn"}' data-widget_type="image.default">
 <div class="elementor-widget-container">
-<img alt="" class="attachment-full size-full wp-image-17113" decoding="async" height="734" src="https://curefoundationindia.com/wp-content/uploads/2021/11/breast-cancer-ribbon.jpg" width="1100"/> </div>
+<img alt="" class="attachment-full size-full wp-image-17113" decoding="async" height="734" src="/assets/wp-content/uploads/2021/11/breast-cancer-ribbon.jpg" width="1100"/> </div>
 </div>
 </div>
 </div>
@@ -465,11 +465,11 @@ var SGPB_JS_PARAMS = {"ajaxUrl":"https:\\/\\/curefoundationindia.com\\/wp-admin\
 <div class="elementor-widget-wrap elementor-element-populated">
 <div class="elementor-element elementor-element-3c2cba9 elementor-widget__width-auto elementor-absolute elementor-invisible elementor-widget elementor-widget-image" data-element_type="widget" data-id="3c2cba9" data-settings='{"_position":"absolute","_animation":"fadeInLeft"}' data-widget_type="image.default">
 <div class="elementor-widget-container">
-<img alt="" class="attachment-full size-full wp-image-4806" decoding="async" height="329" sizes="(max-width: 246px) 100vw, 246px" src="https://curefoundationindia.com/wp-content/uploads/2021/01/btr-intro-stock.png" srcset="https://curefoundationindia.com/wp-content/uploads/2021/01/btr-intro-stock.png 246w, https://curefoundationindia.com/wp-content/uploads/2021/01/btr-intro-stock-224x300.png 224w" width="246"/> </div>
+<img alt="" class="attachment-full size-full wp-image-4806" decoding="async" height="329" sizes="(max-width: 246px) 100vw, 246px" src="/assets/wp-content/uploads/2021/01/btr-intro-stock.png" srcset="/assets/wp-content/uploads/2021/01/btr-intro-stock.png 246w, /assets/wp-content/uploads/2021/01/btr-intro-stock-224x300.png 224w" width="246"/> </div>
 </div>
 <div class="elementor-element elementor-element-c3bd060 elementor-invisible elementor-widget elementor-widget-image" data-element_type="widget" data-id="c3bd060" data-settings='{"_animation":"fadeIn"}' data-widget_type="image.default">
 <div class="elementor-widget-container">
-<img alt="" class="attachment-full size-full wp-image-17216" decoding="async" height="3840" src="https://curefoundationindia.com/wp-content/uploads/2021/11/michael-longmire-L9EV3OogLh0-unsplash-scaled.jpg" width="5760"/> </div>
+<img alt="" class="attachment-full size-full wp-image-17216" decoding="async" height="3840" src="/assets/wp-content/uploads/2021/11/michael-longmire-L9EV3OogLh0-unsplash-scaled.jpg" width="5760"/> </div>
 </div>
 </div>
 </div>
@@ -494,11 +494,11 @@ var SGPB_JS_PARAMS = {"ajaxUrl":"https:\\/\\/curefoundationindia.com\\/wp-admin\
 <div class="elementor-widget-wrap elementor-element-populated">
 <div class="elementor-element elementor-element-9a3793e elementor-widget__width-auto elementor-absolute elementor-invisible elementor-widget elementor-widget-image" data-element_type="widget" data-id="9a3793e" data-settings='{"_position":"absolute","_animation":"fadeInLeft"}' data-widget_type="image.default">
 <div class="elementor-widget-container">
-<img alt="" class="attachment-full size-full wp-image-4806" decoding="async" height="329" sizes="(max-width: 246px) 100vw, 246px" src="https://curefoundationindia.com/wp-content/uploads/2021/01/btr-intro-stock.png" srcset="https://curefoundationindia.com/wp-content/uploads/2021/01/btr-intro-stock.png 246w, https://curefoundationindia.com/wp-content/uploads/2021/01/btr-intro-stock-224x300.png 224w" width="246"/> </div>
+<img alt="" class="attachment-full size-full wp-image-4806" decoding="async" height="329" sizes="(max-width: 246px) 100vw, 246px" src="/assets/wp-content/uploads/2021/01/btr-intro-stock.png" srcset="/assets/wp-content/uploads/2021/01/btr-intro-stock.png 246w, /assets/wp-content/uploads/2021/01/btr-intro-stock-224x300.png 224w" width="246"/> </div>
 </div>
 <div class="elementor-element elementor-element-aa97973 elementor-invisible elementor-widget elementor-widget-image" data-element_type="widget" data-id="aa97973" data-settings='{"_animation":"fadeIn"}' data-widget_type="image.default">
 <div class="elementor-widget-container">
-<img alt="" class="attachment-full size-full wp-image-17217" decoding="async" height="357" loading="lazy" src="https://curefoundationindia.com/wp-content/uploads/2021/11/nguy-n-hi-p-ufwC2cmbaaI-unsplash.jpg" width="640"/> </div>
+<img alt="" class="attachment-full size-full wp-image-17217" decoding="async" height="357" loading="lazy" src="/assets/wp-content/uploads/2021/11/nguy-n-hi-p-ufwC2cmbaaI-unsplash.jpg" width="640"/> </div>
 </div>
 </div>
 </div>
@@ -524,11 +524,11 @@ var SGPB_JS_PARAMS = {"ajaxUrl":"https:\\/\\/curefoundationindia.com\\/wp-admin\
 <div class="elementor-widget-wrap elementor-element-populated">
 <div class="elementor-element elementor-element-88b8638 elementor-widget__width-auto elementor-absolute elementor-invisible elementor-widget elementor-widget-image" data-element_type="widget" data-id="88b8638" data-settings='{"_position":"absolute","_animation":"fadeInLeft"}' data-widget_type="image.default">
 <div class="elementor-widget-container">
-<img alt="" class="attachment-full size-full wp-image-4806" decoding="async" height="329" sizes="(max-width: 246px) 100vw, 246px" src="https://curefoundationindia.com/wp-content/uploads/2021/01/btr-intro-stock.png" srcset="https://curefoundationindia.com/wp-content/uploads/2021/01/btr-intro-stock.png 246w, https://curefoundationindia.com/wp-content/uploads/2021/01/btr-intro-stock-224x300.png 224w" width="246"/> </div>
+<img alt="" class="attachment-full size-full wp-image-4806" decoding="async" height="329" sizes="(max-width: 246px) 100vw, 246px" src="/assets/wp-content/uploads/2021/01/btr-intro-stock.png" srcset="/assets/wp-content/uploads/2021/01/btr-intro-stock.png 246w, /assets/wp-content/uploads/2021/01/btr-intro-stock-224x300.png 224w" width="246"/> </div>
 </div>
 <div class="elementor-element elementor-element-8eb0aca elementor-invisible elementor-widget elementor-widget-image" data-element_type="widget" data-id="8eb0aca" data-settings='{"_animation":"fadeIn"}' data-widget_type="image.default">
 <div class="elementor-widget-container">
-<img alt="" class="attachment-full size-full wp-image-17218" decoding="async" height="427" loading="lazy" src="https://curefoundationindia.com/wp-content/uploads/2021/11/anupam-mahapatra-Vz0RbclzG_w-unsplash.jpg" width="640"/> </div>
+<img alt="" class="attachment-full size-full wp-image-17218" decoding="async" height="427" loading="lazy" src="/assets/wp-content/uploads/2021/11/anupam-mahapatra-Vz0RbclzG_w-unsplash.jpg" width="640"/> </div>
 </div>
 </div>
 </div>
